@@ -1,89 +1,48 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
-  #btn {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1F1E1E;
-  }
-  .btn--red {
-    height: 20px;               
-    padding: 0;
-    background: black;
-    font-size: 16px;
-    line-height: 20px;
-    background-color: #ffffff;
-  }
-  .btn--events {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1F1E1E;
-  }
-  .btn--events--red {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #BC3324;
-  }
-  .btn--blog {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1F1E1E;
-  }
-  .btn--blog--red {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #BC3324;
-  }
-  .btn--we {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1F1E1E;
-  }
-  .btn--we--red {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #BC3324;
-  }
-  .btn--contacts {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1F1E1E;
-  }
-  .btn--contacts--red {
-    height: 20px;
-    padding: 0;
-    background: transparent;
-    border-color: transparent;
-    font-size: 16px;
-    line-height: 20px;
-    color: #BC3324;
-  }
+.body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 147px;
+}
+
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 147px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(222, 222, 222, 0.5);
+  backdrop-filter: blur(20px);
+  z-index: 100;
+}
+
+.page-header__container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1414px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main {
+  flex: 1 0 auto;
+  background-color: rgb(182, 108, 108);
+}
+
+.page-footer {
+  flex: 0 0 auto;
+  background-color: aquamarine;
+}
